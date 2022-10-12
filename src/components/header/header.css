@@ -1,0 +1,172 @@
+.navigation {
+    background-color: var(--primary-color);
+    /*box-shadow: 0 0 7px rgba(0, 0, 0, 1);*/
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.nav-link {
+    padding:1em;
+    font-weight:500;
+    margin:0 0.2em;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family:var(--font-two); }  
+
+.nav-link:hover {
+    color: #c02118;  
+}
+
+
+.link_style  {
+  color: #c02118;
+  text-decoration: none;
+}
+
+.link_style:active {
+  color: var(--lighten-color);
+}
+
+.canvas-style {
+    background-color: rgba(14, 12, 12);
+    width: 20%;
+}
+
+.connect{
+    color: var(--lighten-color);
+    text-align: center;
+    margin-top: 4.5em;
+    font-size: 1.2em;
+    font-weight: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.8em;
+}
+
+/*Icons hover pop up text animation - reference from https://codepen.io/kieranfivestars/pen/gbOWbM */
+
+/*Each icon*/
+.icons {
+    color: white;
+    background: var(--darken-color);
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family:fontawesome;
+    position: relative;
+    display: inline-block;
+    width:40px;
+    height:35px;
+    padding-top:5px;
+    padding-bottom: 13px;
+    font-size: 1.1em;
+    margin:0 0.5em;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .icons:hover {
+    background: var(--lighten-color);
+  }
+
+  .icons:nth-of-type(1):hover{
+    color:#0e76a8 ;
+  }
+
+  .icons:nth-of-type(2):hover{
+    color:#00acee  ;
+  }
+
+  .icons:nth-of-type(3):hover{
+    color: #d6249f;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, 
+    #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  
+  }
+
+  /*Texts inside anchor tag*/
+  .icons span {
+    color:var(--lighten-color);
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:1;
+    font-size:14px;
+    border-radius:2px;
+    background:var(--primary-color);
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop up text*/
+  
+  .icons span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+  
+  /* text pops up when icon are hovered */
+  
+  a:hover span {
+    bottom:45px;
+    visibility:visible;
+    opacity:1;
+    color:var(--darkest-color);
+    
+  }
+
+.icons:nth-of-type(1):before {
+    content:'\f08c';
+    }
+.icons:nth-of-type(2):before {
+    content:'\f099';
+}
+
+.icons:nth-of-type(3):before {
+        content:'\f09b ';}
+
+
+
+@media only screen and (max-width:768px) {
+
+  .nav-link {
+    color: var(--lighten-color);
+    padding:1em;
+    margin:0 0.8em;
+    font-weight: bold;
+    
+  }
+
+  .nav-link:hover,.link_style:hover {
+    transition:color ease-in .5s;
+    color:var(--primary-color)
+  }
+
+ 
+
+}

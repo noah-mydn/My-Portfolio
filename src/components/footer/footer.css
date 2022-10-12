@@ -1,0 +1,17 @@
+footer {
+    background-color: var(--darkest-color);
+}
+
+.copyright {
+    color:var(--lighten-color);
+    font-size: 15px;
+}
+
+#profile-link{
+    color: yellow;
+    text-decoration: none;
+}
+
+#profile-link:hover {
+    color:#ec3030;
+}

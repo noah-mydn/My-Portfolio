@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
+:root{
+    --primary-color:#ffbc0e;
+    --secondary-color:#E2B949;
+    --dark-primary-color:#775705;
+    --lighten-color:#FFF6EB;
+    --darken-color:#141311;
+    --soft-darken-color:#4e4e4e;
+    --darkest-color:#0e0a01;
+    --oil:#050100;
+    --font-one:'Raleway', sans-serif;
+    --font-two:'Merriweather Sans', sans-serif;
+}
+
+* {
+    font-family: var(--font-one);
+ 
+}
+
