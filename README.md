@@ -16,4 +16,4 @@ For constant typing text animation on home page, I used React Type Animation:
 
 ### Deployment
 
-Live Demo of Portfolio: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Live Demo of Portfolio: [https://noah-mydn.github.io/My-Portfolio/](https://noah-mydn.github.io/My-Portfolio/)
