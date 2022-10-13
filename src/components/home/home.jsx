@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css';
 import { TypeAnimation } from 'react-type-animation'
 import {motion} from 'framer-motion'
+import homeImg from '../images/yadanar.png';
 
 export default function Home() {
 
@@ -31,7 +32,8 @@ export default function Home() {
 
             {/* My Image */}
             <div className='img-container'>
-                <img src='../assets/images/yadanar.png' className='yadanar'/>
+                <img src={homeImg} className='yadanar'
+                alt="My Image - May Yadanar"/>
             </div>
         </motion.div>
   )
