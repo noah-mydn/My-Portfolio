@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import {motion} from 'framer-motion'
-import aboutImg from './my-portfolio/images/yadanar.jpeg';
+import aboutImg from './images/yadanar.jpeg';
 
 export default function About() {
 
