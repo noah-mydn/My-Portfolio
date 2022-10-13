@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css';
 import { TypeAnimation } from 'react-type-animation'
 import {motion} from 'framer-motion'
-import homeImg from '../images/yadanar.png';
+import homeImg from './images/yadanar.png';
 
 export default function Home() {
 
