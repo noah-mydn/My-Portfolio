@@ -5,9 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
 import {Link} from 'react-router-dom'
-import logoBlack from './images/yadanar-logo-black.png';
-import logoYellow from './images/yadanar-logo-yellow.png';
-import navTogglerBtn from './images/list.svg';
+import logoBlack from './my-portfolio/images/yadanar-logo-black.png';
+import logoYellow from './my-portfolio/images/yadanar-logo-yellow.png';
+import navTogglerBtn from './my-portfolio/images/list.svg';
 
 export default function Navigation() {
 
