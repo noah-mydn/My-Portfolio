@@ -31,7 +31,7 @@ export default function Home() {
 
             {/* My Image */}
             <div className='img-container'>
-                <img src='./mayyadanar/yadanar.png' className='yadanar'
+                <img src='' className='yadanar'
                 alt="My Image - May Yadanar"/>
             </div>
         </motion.div>
