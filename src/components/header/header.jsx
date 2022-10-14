@@ -11,7 +11,7 @@ export default function Navigation() {
     const matches = useMediaQuery({query:'(max-width:768px)'})
 
   return (
-    <div className='row'>
+    <div className='container'>
             <Navbar expand='md' className="mb-3 navigation" fixed='top'>
             <Container fluid>
                 {/* Adding the logo */}
