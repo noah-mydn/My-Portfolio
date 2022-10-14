@@ -5,9 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
 import {NavLink} from 'react-router-dom'
-import logoBlack from './images/yadanar-logo-black.png';
-import logoYellow from './images/yadanar-logo-yellow.png';
-import navTogglerBtn from './images/list.svg';
 
 export default function Navigation() {
 
@@ -19,11 +16,11 @@ export default function Navigation() {
             <Container fluid>
                 {/* Adding the logo */}
                 <Navbar.Brand href='/'>
-                    <img className='img-fluid' width='120' height='70' src={logoBlack}/>
+                    <img className='img-fluid' width='120' height='70' src='./mayyadanar/yadanar-logo-black.png'/>
                 </Navbar.Brand>
                 
                 <Navbar.Toggle aria-controls='offCanvasNavigation'>
-                    <img src={navTogglerBtn}/>
+                    <img src='./mayyadanar/list.svg'/>
                 </Navbar.Toggle> {/* Button toggler for mobile view */}
 
                 {/* Adding nav items */}
@@ -35,7 +32,7 @@ export default function Navigation() {
                 >
                 <Offcanvas.Header closeButton closeVariant='white'>
                     <Offcanvas.Title id='offCanvasNavigation'>
-                        <img className='img-fluid' width='120' height='70' src={logoYellow}/>
+                        <img className='img-fluid' width='120' height='70' src='./mayyadanar/yadanar-logo-yellow.png'/>
                     </Offcanvas.Title>
                 </Offcanvas.Header>
 

@@ -8,7 +8,7 @@ import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
-        <BrowserRouter basename='/my-portfolio'>
+        <BrowserRouter>
           <div className="container-fluid">
             <Navigation/>
             <AnimatedRoutes/>

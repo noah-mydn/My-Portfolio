@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import {motion} from 'framer-motion'
-import aboutImg from './images/yadanar.jpeg';
 
 export default function About() {
 
@@ -14,7 +13,7 @@ export default function About() {
         <h3 className='text-center'>About Me</h3>
         <div className='about'>
             <div className='img-container'>
-              <img src={aboutImg} id='my_about_img' alt="Image-May Yadanar"/>
+              <img src='./mayyadanar/yadanar.jpeg' id='my_about_img' alt="Image-May Yadanar"/>
             </div>
             <div className='about_card'>
                 <p className='about_info'>
