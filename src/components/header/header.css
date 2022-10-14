@@ -13,7 +13,7 @@
    }  
 
 .nav-link:hover {
-    color: var(--lighten-color);  
+    color: var(--soft-darken-color);  
 }
 
 .active {
@@ -148,10 +148,11 @@
     margin:0 0.8em;
     font-weight: bold;
     color: var(--lighten-color);
+    border-radius: 20px;
   }
 
   .nav-link:hover, .nav-link:focus {
-    color: #fd5949;
+    color: var(--soft-darken-color);
   }
 
   .active {

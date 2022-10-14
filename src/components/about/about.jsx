@@ -19,7 +19,7 @@ export default function About() {
             <div className='about_card'>
                 <p className='about_info'>
                   <span className='hello'>Hello  </span><br/>
-                  I'm a self-motivated junior front-end web developer. Mainly, I develop websites using one of the 
+                  I'm a self-motivated junior front-end web developer. Mostly, I develop websites using one of the 
                   JavaScript libraries, React. Besides, I'm also studying a full-stack development course so that 
                   I could expand my knowledge fully in the web development field. Currently,
                   I'm working as a React developer intern at <a href="https://linuxjobber.com/"> LinuxJobber, Inc  </a>
