@@ -26,7 +26,7 @@ export default function Home() {
                 </h1>
                 <small className='short_intro'>
                 An undergraduate Computer Science student looking for junior-level web development roles 
-                to make use of her web programming knowlege
+                to make use of her web programming knowledge
                 </small>  
             </div>
 

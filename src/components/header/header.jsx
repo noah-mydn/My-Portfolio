@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import logoBlack from './images/yadanar-logo-black.png';
 import logoYellow from './images/yadanar-logo-yellow.png';
 import navTogglerBtn from './images/list.svg';
@@ -41,18 +41,10 @@ export default function Navigation() {
 
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                        <Link to='/' className='link_style'>
-                            <Nav.Item><Nav.Link href="#home">Home</Nav.Link></Nav.Item>
-                        </Link>
-                        <Link to='/about' className='link_style'>
-                            <Nav.Item><Nav.Link href="#about">About</Nav.Link></Nav.Item>
-                        </Link>
-                        <Link to='/portfolio' className='link_style'>
-                            <Nav.Item><Nav.Link href="#portfolio">Portfolio</Nav.Link></Nav.Item>
-                        </Link>
-                        <Link to='/contact' className='link_style'>
-                            <Nav.Item><Nav.Link href="#contact">Contact</Nav.Link></Nav.Item>
-                        </Link>
+                            <NavLink to='/' end  className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink>
+                            <NavLink to='/about' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>About</NavLink>
+                            <NavLink to='/portfolio' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Portfolio</NavLink>
+                            <NavLink to='/contact' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Contact</NavLink>
                     </Nav>
 
                     {matches && 

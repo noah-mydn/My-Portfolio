@@ -8,7 +8,7 @@ export default function Contact() {
     const [formData, setFormData]= React.useState({
         firstName:'',
         lastName:'',
-        emailAddress:'',
+        user_email:'',
         message:''
     });
 
@@ -34,7 +34,7 @@ export default function Contact() {
                   console.log(error.text);
               });
 
-             setFormData({firstName:'',lastName:'',emailAddress:'',message:''});
+             setFormData({firstName:'',lastName:'',user_email:'',message:''});
     }
 
 
@@ -76,9 +76,9 @@ export default function Contact() {
             </div>
             
             <label className='contact_label'>Email Address</label>
-            <input type='email' name='emailAddress' required
+            <input type='email' name='user_email' required
             className='form-input'
-            value={formData.emailAddress} onChange={handleFormOnChange}/>
+            value={formData.user_email} onChange={handleFormOnChange}/>
 
             <label className='contact_label'>Your Message</label>
             <textarea name='message' value={formData.message}

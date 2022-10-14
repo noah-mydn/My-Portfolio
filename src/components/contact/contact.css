@@ -113,7 +113,7 @@
 }
 
 .form_btn:hover,.form_btn:focus {
-    border:1px solid var(--primary-color);
+    border-color:var(--primary-color);
 }
 
 /*Setting default white background of input field as transparent*/
