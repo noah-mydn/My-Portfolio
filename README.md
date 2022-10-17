@@ -1,7 +1,27 @@
 # Own Portfolio Page
 
-This project was bootstrapped with [Create React App].
-It solely represents my portfolio along with my resume attached.
+A complete responsive portfolio website designed by React using Bootstrap libraires for styling.
+
+###Features
+
+*Feature-1
+-for screen size above 768px, the navigation bar will be fixed on top while there will be a humburger menu available for smaller screen size where the navigation menu could be viewed full page along with some social media icons at the end of the navigation menu items.
+
+*Feature-2
+-the text and images are responsively designed in accordance with the screensize so that the font-size and image size will be changed based on the device-width.
+
+*Feature-3
+-On Contact page, the form is designed to fully function by using emailJS so that when the **SEND** button is clicked, the full name and email of the person inside the form field will be send directly to the email setup in emailJS service as in the template designed by emailJS service user.
+
+###Used Web Technologies
+*HTML
+*CSS
+*REACT
+*BOOTSTRAP
+
+###Testing
+
+
 
 ### Attributions
 
