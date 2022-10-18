@@ -15,10 +15,8 @@ export default function Navigation() {
             <Navbar expand='md' className="mb-3 navigation" fixed='top'>
             <Container fluid>
                 {/* Adding the logo */}
-                <Navbar.Brand>  
-                    <a href='#home'> 
+                <Navbar.Brand href='#home'> 
                         <img className='img-fluid' width='120' height='70' src='./mayyadanar/yadanar-logo-black.png'/>
-                    </a>
                 </Navbar.Brand>
                 
                 <Navbar.Toggle aria-controls='offCanvasNavigation'>
