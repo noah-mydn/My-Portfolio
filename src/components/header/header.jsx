@@ -16,9 +16,9 @@ export default function Navigation() {
             <Container fluid>
                 {/* Adding the logo */}
                 <Navbar.Brand>  
-                    <Link to='/'> 
+                    <a href='#home'> 
                         <img className='img-fluid' width='120' height='70' src='./mayyadanar/yadanar-logo-black.png'/>
-                    </Link>
+                    </a>
                 </Navbar.Brand>
                 
                 <Navbar.Toggle aria-controls='offCanvasNavigation'>
@@ -54,7 +54,7 @@ export default function Navigation() {
                         <div className='social-icons'>
                             <a className='icons' href="https://www.linkedin.com/in/may-yadanar-noah-8a95131bb"><span>LinkedIn</span></a>
                             <a className='icons' href="https://www.twitter.com/noah_mydn"><span>Twitter</span></a>
-                            <a className='icons' href="https://www.github.com/noah_mydn"><span>Github</span></a>
+                            <a className='icons' href="https://www.github.com/noah-mydn"><span>Github</span></a>
                         </div>
                     </>}
                 </Offcanvas.Body>
