@@ -24,7 +24,7 @@ export default function About() {
                   I'm working as a React developer intern at <a href="https://linuxjobber.com/"> LinuxJobber, Inc  </a>
                 </p>
                 <a href='./mayyadanar/resume.pdf' download='May Yadanar Resume'>
-                  <button className='download'type='submit'>Download CV</button>
+                  <button className='download' value='download'>Download CV</button>
                 </a>
             </div>
         </div>
