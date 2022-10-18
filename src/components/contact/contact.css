@@ -134,7 +134,13 @@ input:-webkit-autofill:active {
 
 @media only screen and (max-width:576px) {
 
+    .contact {
+        height: 106vh;
+        padding: 3.9rem 0 0 2rem;
+    }
+
     .contact h1 {
+        padding-top: 1.2em;
         padding-bottom:2em;
     }
 
