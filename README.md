@@ -6,15 +6,15 @@ A complete responsive portfolio website that is supposed to showcase the project
 
 * Feature-1
 
-        for screen sizes larger than 768px, the navigation bar will be fixed on top while there will be a hamburger menu available for smaller screen sizes where the    navigation menu could be viewed full page along with some social media icons at the end of the navigation menu items.
+   > for screen sizes larger than 768px, the navigation bar will be fixed on top while there will be a hamburger menu available for smaller screen sizes where the    navigation menu could be viewed full page along with some social media icons at the end of the navigation menu items.
 
 * Feature-2
  
-      the text and images are responsively designed in accordance with the screen size so that the font size and image size will be changed based on the device width.
+   > the text and images are responsively designed in accordance with the screen size so that the font size and image size will be changed based on the device width.
 
 * Feature-3
 
-      On the Contact page, the form is structured to fully function by using emailJS so that when the **SEND** button is clicked, the full name and email of the person inside the form field will be sent directly to the email setup in emailJS service as in the template designed by emailJS service user.
+   > On the Contact page, the form is structured to fully function by using emailJS so that when the **SEND** button is clicked, the full name and email of the person inside the form field will be sent directly to the email setup in emailJS service as in the template designed by emailJS service user.
 
 ### Used Web Technologies
 
