@@ -80,7 +80,5 @@ Throughout development of this website, I used **Git** for version control syste
 Live Demo of Portfolio: [https://noah-mydn.github.io/My-Portfolio/](https://noah-mydn.github.io/My-Portfolio/)
 
 ![Desktop View of the Website](/public/mayyadanar/desktop_view.png)
-![Mobile View of the Website](/public/mayyadanar/mobile_view.png)
-
 
 #### *The content and the images used inside this website are all rights reserved!*
