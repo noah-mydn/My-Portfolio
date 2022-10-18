@@ -136,7 +136,7 @@ input:-webkit-autofill:active {
 
     .contact {
         height:100vh;
-        margin-top: 0;
+        margin-top: -1em;
         padding-top:4.5em;
     }
 
