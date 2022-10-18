@@ -27,9 +27,9 @@ A complete responsive portfolio website that is supposed to showcase the project
 
 1. Navigation Bar
 
-  * Does the navigation bar style change from showing inline menu elements fixed on top of the navbar on the desktop screen sizes to an off-canvas menu selection where it is displayed on mobile devices?
-  * Does the social icons under the menu items inside the hamburger menu show and are clickable?
-  * Does the social icons hide when there's no hamburger off-canvas menu?
+   * Does the navigation bar style change from showing inline menu elements fixed on top of the navbar on the desktop screen sizes to an off-canvas menu selection where it is displayed on mobile devices?
+   * Does the social icons under the menu items inside the hamburger menu show and are clickable?
+   * Does the social icons hide when there's no hamburger off-canvas menu?
 
 2. Image Responsiveness
 
@@ -54,6 +54,9 @@ A complete responsive portfolio website that is supposed to showcase the project
 
     * Do the hyperlinks assigned to the social icons bring to certain social media accounts when it's clicked?
     * Does the logo on top of the navigation bar bring you to the home page when it's clicked?
+    
+6. Download
+   * Does the resume actually downloaded when it's clicked via Download Button in the about page?
 
 
 ### Acknowledgement
