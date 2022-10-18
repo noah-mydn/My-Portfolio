@@ -81,4 +81,4 @@ Live Demo of Portfolio: [https://noah-mydn.github.io/My-Portfolio/](https://noah
 
 ![Desktop View of the Website](/public/mayyadanar/desktop_view.png)
 
-<h4 align="center"> *The content and the images used inside this website are all rights reserved!* </h4>
+<h4 align="center"> <em>The content and the images used inside this website are all rights reserved!</em> </h4>
