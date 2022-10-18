@@ -76,4 +76,4 @@ Social icons used in this website are from:
 Throughout development of this website, I used **Git** for version control system and constantly commited the changes made to the website. After committing the changes, they were then pushed on the Github where it was later deployed to view the live version using Git Pages. 
 Live Demo of Portfolio: [https://noah-mydn.github.io/My-Portfolio/](https://noah-mydn.github.io/My-Portfolio/)
 
-#### *The content and the images used inside this website are all rights reserved*
+#### *The content and the images used inside this website are all rights reserved!*
