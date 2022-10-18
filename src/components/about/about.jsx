@@ -23,7 +23,7 @@ export default function About() {
                   I could expand my knowledge fully in the web development field. Currently,
                   I'm working as a React developer intern at <a href="https://linuxjobber.com/"> LinuxJobber, Inc  </a>
                 </p>
-                <a href='../assets/resume/resume.pdf' download='May Yadanar Resume'>
+                <a href='./assets/resume/resume.pdf' download='May Yadanar Resume'>
                   <button className='download'type='submit'>Download CV</button>
                 </a>
             </div>
