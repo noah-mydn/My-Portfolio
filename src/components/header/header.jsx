@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useMediaQuery } from 'react-responsive';
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 
 export default function Navigation() {
 
@@ -15,8 +15,10 @@ export default function Navigation() {
             <Navbar expand='md' className="mb-3 navigation" fixed='top'>
             <Container fluid>
                 {/* Adding the logo */}
-                <Navbar.Brand>               
+                <Navbar.Brand>  
+                    <Link to='/'> 
                         <img className='img-fluid' width='120' height='70' src='./mayyadanar/yadanar-logo-black.png'/>
+                    </Link>
                 </Navbar.Brand>
                 
                 <Navbar.Toggle aria-controls='offCanvasNavigation'>
