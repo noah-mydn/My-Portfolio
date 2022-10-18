@@ -144,9 +144,6 @@
 
 @media only screen and (max-width:768px) {
 
-  .navigation {
-    height: 90px;
-  }
 
   .nav-link {
     padding:1em 35%;
