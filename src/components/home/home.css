@@ -2,7 +2,7 @@
     background-color: var(--darken-color);
     color:var(--lighten-color);
     padding: 9.7rem .05em .05em 0;
-    height: 100vh;
+    height: 100%;
 }
 
 .intro-text {

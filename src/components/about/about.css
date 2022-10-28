@@ -2,7 +2,7 @@
     padding: 5.5rem 2rem 0 2rem;
     background-color:var(--darkest-color);
     color:var(--lighten-color);
-    height:100vh;
+    height: 100%;
     margin-top:2em;
 }
 

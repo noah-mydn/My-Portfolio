@@ -2,7 +2,7 @@
     padding: 5.3rem 0 0 2rem;
     background-color:var(--soft-darken-color);
     color:var(--lighten-color);
-    height:100vh;
+    height: 100%;
     position:relative;
 }
 
@@ -135,7 +135,6 @@ input:-webkit-autofill:active {
 @media only screen and (max-width:576px) {
 
     .contact {
-        height: 106vh;
         padding: 3.9rem 0 0 2rem;
     }
 
