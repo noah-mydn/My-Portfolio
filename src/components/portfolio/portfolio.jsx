@@ -17,7 +17,7 @@ export default function Portfolio() {
                 className='img-fluid' alt='Space-Tourism-website'/>
                 <CardBody>
                   <CardTitle className='h3 text-center space-8'>
-                    Space Tourism 
+                    Space Tourism Website 
                   </CardTitle>
                   <div className='codeLang'>
                     <div className='btn-lang'>React</div>
