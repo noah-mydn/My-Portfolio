@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import { PROJECTS } from './projects';
 import {motion} from 'framer-motion'
 import {Card,CardTitle,CardBody,Button} from 'reactstrap';
 
@@ -12,24 +13,26 @@ export default function Portfolio() {
     whileInView={{opacity:1,y:0}}
     transition={{duration:1}}>
         <div className='project_cards'>
-              <Card className='cardView'>
-                <img src='./mayyadanar/space-tourism.png'
-                className='img-fluid' alt='Space-Tourism-website'/>
-                <CardBody>
-                  <CardTitle className='h3 text-center space-8'>
-                    Space Tourism Website 
-                  </CardTitle>
-                  <div className='codeLang'>
-                    <div className='btn-lang'>React</div>
-                    <div className='btn-lang'>Bootstrap</div>
-                  </div>
-                </CardBody>
-                <div className='overlay' onMouseOver={()=>setShowDemoBtn(true)} onMouseLeave={()=>setShowDemoBtn(false)}>
-                    {showDemoBtn && <a className='viewDemo' 
-                    target='_blank' href='https://noah-space-tourism.netlify.app/'>
-                     &#60; View Demo /&#62;</a>}
-                </div>
+              {PROJECTS.map((project)=> (
+                  <Card className='cardView' key={project.id}>
+                    <img src={project.image}
+                    className='img-fluid' alt={project.title}/>
+                    <CardBody>
+                      <CardTitle className='h5 text-center space-3'>
+                        {project.title} 
+                      </CardTitle>
+                        <div className='codeLang'>
+                          <div className='btn-lang'>{project.codeLang}</div>
+                          <div className='btn-lang'>{project.framework}</div>
+                        </div>
+                      </CardBody>
+                      <div className='overlay' onMouseOver={()=>setShowDemoBtn(true)} onMouseLeave={()=>setShowDemoBtn(false)}>
+                          {showDemoBtn && <a className='viewDemo' 
+                          target='_blank' href={project.demoLink}>
+                          &#60; View Demo /&#62;</a>}
+                      </div>
               </Card>
+              ))}
         </div>
     </motion.div>
   )
