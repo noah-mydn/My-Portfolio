@@ -16,7 +16,9 @@ export default function Portfolio() {
               {PROJECTS.map((project)=> (
                   <Card className='cardView' key={project.id}>
                     <img src={project.image}
-                    className='img-fluid' alt={project.title}/>
+                     alt={project.title} style={{
+                      objectFit:'contain'
+                    }}/>
                     <CardBody>
                       <CardTitle className='h5 text-center space-3'>
                         {project.title} 
