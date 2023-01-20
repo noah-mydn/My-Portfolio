@@ -80,7 +80,7 @@ Social icons used in this website are from:
 ### Deployment
 
 Throughout development of this website, I used **Git** for version control system and constantly commited the changes made to the website. After committing the changes, they were then pushed on the Github where it was later deployed to view the live version using Git Pages. 
-Live Demo of Portfolio: [https://noah-mydn.github.io/mayyadanar/](https://noah-mydn.github.io/mayyadanar/)
+Live Demo of Portfolio: [https://noah-mydn.netlify.app/](https://noah-mydn.netlify.app/)
 
 ![Desktop View of the Website](/public/mayyadanar/desktop_view.png)
 
